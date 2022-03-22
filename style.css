@@ -1,0 +1,56 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.hero {
+  background-color: #1F2937;
+  color: #e5e7eb;
+  padding: 16px;
+}
+.header {
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.content p {
+  font-size: 18px;
+}
+
+.content h1 {
+  font-size: 48px;
+}
+
+.content .text {
+  max-width: 400px;
+}
+
+.content img {
+  width: 400px;
+  height: 200px;
+  background-color: #6d747d;
+}
+
+.hero h1 {
+  color: #f9faf8;
+}
+
