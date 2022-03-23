@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+.container {
+  max-width: 720px;
+}
+
 .hero {
   background-color: #1F2937;
   color: #e5e7eb;
@@ -93,4 +97,32 @@ body {
 .info p {
   max-width: 200px;
   text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.quote .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote p {
+  max-width: 720px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote h5 {
+  font-style: bold;
+  font-size: 24px;
+  align-self: flex-end;
 }
