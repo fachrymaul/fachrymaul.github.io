@@ -7,14 +7,19 @@ body {
 }
 
 .container {
-  max-width: 720px;
+  max-width: 800px;
 }
 
 .hero {
   background-color: #1F2937;
   color: #e5e7eb;
-  padding: 16px;
+  padding: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
+
 .header {
   color: #f9faf8;
   display: flex;
@@ -42,6 +47,15 @@ body {
 
 .content h1 {
   font-size: 48px;
+}
+
+.content button {
+  width: 80px;
+  height: 30px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  border: none;
 }
 
 .content .text {
@@ -157,6 +171,16 @@ body {
 
 .modal p {
   color: #e5e7eb;
+}
+
+.modal button {
+  width: 100px;
+  height: 40px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  border: solid;
+  border-color: #f9faf8;
 }
 
 .footer {
