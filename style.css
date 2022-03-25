@@ -158,3 +158,15 @@ body {
 .modal p {
   color: #e5e7eb;
 }
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.footer p {
+  color: #e5e7eb;
+}
